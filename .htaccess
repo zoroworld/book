@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Rewrite URLs to their corresponding PHP files if they don't exist as regular files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^admin/?$ admin/index.php [L]
+RewriteRule ^([^\.]+)$ $1.php [L]
+
+# Custom Error Document for 404 Not Found
+# ErrorDocument https(whole)
+
+ErrorDocument 404 /book/notfound
+

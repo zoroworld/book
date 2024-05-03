@@ -1,0 +1,228 @@
+
+@media (max-width: 1199.98px) {
+    .hero-content h1 {
+        font-size: 45px;
+    }
+
+    .hero-area .fullscreen {
+        height: 800px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .single-price .price-bottom .primary-btn {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .course-area .owl-controls {
+        position: relative;
+        text-align: center;
+        left: 0;
+        top: 20px;
+    }
+
+    .course-area .owl-controls .owl-prev, .course-area .owl-controls .owl-next {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content h1 br {
+        display: none;
+    }
+
+    .info-area .info-content:after {
+        width: 50px;
+    }
+
+    .info-area .info-content {
+        padding: 30px 30px 30px 0;
+    }
+
+    .footer-social {
+        text-align: left;
+    }
+
+    .single-footer-widget {
+        margin-bottom: 30px;
+    }
+
+    .generic-hero .generic-hero-content h2 br {
+        display: none;
+    }
+
+    .generic-hero .generic-hero-content p br {
+        display: none;
+    }
+
+    .section-title p br {
+        display: none;
+    }
+
+    .navbar-eccom-collapse {
+        position: relative;
+        background-color: #044160;
+    }
+
+    .newwork-desktop {
+        display: none;
+    }
+
+    .navbar-ecomm-btn {
+        margin: 0px 16px 0 auto;
+        border: var(--bs-border-width) solid rgb(0 0 0 / 0%);
+    }
+
+    .navbar-ecomm-btn:focus {
+        box-shadow: none;
+    }
+
+    .newwork-phone {
+        display: block;
+        padding-right: 19px;
+    }
+
+    .navbar-eccom-collapse-contain {
+        padding: 11px 0;
+    }
+
+    .navbar-eccom-collapse-contain ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-active {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu>li {
+        margin-left: 0;
+    }
+
+    .menu-active {
+        background-color: #01689d;
+    }
+
+    .menu-active:after {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .hero-content {
+        margin-top: 80px;
+    }
+
+    .hero-right img {
+        width: 55%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        display: block;
+    }
+
+    .info-area .info-content {
+        text-align: center;
+        padding: 80px 30px 80px 0;
+    }
+
+    .info-area .info-left {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .single-counter {
+        margin-bottom: 30px;
+    }
+
+    .single-price {
+        margin-bottom: 50px;
+    }
+
+    .social-widget {
+        margin-top: 30px;
+    }
+
+    #mobile-nav-toggle {
+        display: inline;
+    }
+
+    #nav-menu-container {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .call-to-action-area .download-button {
+        -webkit-box-direction: normal !important;
+        -webkit-box-orient: vertical !important;
+        -webkit-flex-direction: column !important;
+        -moz-flex-direction: column !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+
+    #nav-menu-container {
+        display: none;
+    }
+
+    #header #logo h1 {
+        font-size: 28px;
+    }
+
+    #header #logo img {
+        max-height: 40px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .generic-hero .height {
+        height: 400px;
+    }
+}
+
+@media (max-width: 767px) {
+    .no-flex-xs {
+        display: block !important;
+    }
+}
+
+@media (max-width: 673px) {
+    #logo {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .info-area .info-content {
+        margin-top: 30px;
+    }
+
+    .info-area .info-content:after {
+        display: none;
+    }
+
+    .info-area .info-content {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    .info-content {
+        /* padding-left: 14px; */
+        padding: 0px 16px;
+    }
+    .buttons {
+        margin: 0px;
+    }
+}

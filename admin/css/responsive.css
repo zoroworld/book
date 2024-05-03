@@ -1,0 +1,40 @@
+
+@media (min-width: 992px) {
+    .sidebar {
+        margin-left: 0;
+    }
+
+    .sidebar.open {
+        margin-left: -250px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content.open {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        margin-left: -250px;
+    }
+
+    .sidebar.open {
+        margin-left: 0;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .content .navbar .navbar-nav .nav-link {
+        margin-left: 15px;
+    }
+}
